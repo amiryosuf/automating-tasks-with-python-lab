@@ -28,8 +28,8 @@ def get_weather(city, api_key):
     else:
         print("❌ Failed to retrieve weather data. Check the city name or API key.")
 
-    if __name__ == "__main__":
+if __name__ == "__main__":
         # Replace with your actual OpenWeatherMap API key
-        API_KEY = e7025382dd7fae7efe5a8d5c419bd7c3
+        API_KEY = "e7025382dd7fae7efe5a8d5c419bd7c3"
         city = input("Enter a city name: ")
-        get_weather(city, e7025382dd7fae7efe5a8d5c419bd7c3)
+        get_weather(city, API_KEY)
